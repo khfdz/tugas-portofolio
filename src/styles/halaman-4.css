@@ -1,0 +1,189 @@
+.halEmpat{
+    background: #EDE5D8;
+}
+
+.aboutEmpat, .resumeEmpat, .workEmpat {
+    cursor: pointer;
+}
+
+.navbar .logoEmpat {
+    color: #1E180A;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 350px; 
+    width: 120px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .aboutEmpat {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -180px;
+    font-weight: 100;
+}
+
+.navbar .resumeEmpat {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+
+}
+
+.navbar .workEmpat {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px;
+    font-weight: bold;
+}  
+
+.content4 {
+    height: 620px;
+    position: relative;
+    background-color: #EDE5D8;
+}
+
+.isiContent4 {
+    display: flex;
+    margin-top: 0px;
+}
+
+.myLatest {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: #201A0C;
+    font-family: 'Playfair Display', serif;
+}
+
+.btnPhotography {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-left: 600px;
+    margin-right: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btnWebDev {
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btnWebDev.active {
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-weight: bolder;
+}
+
+.btnPhotography.active {
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-weight: bolder;
+}
+
+
+.photography {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    /* display: none; */
+}
+
+.webDev {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: none;
+}
+
+.card {
+    margin-top: 80px;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-left: 70px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: 'Playfair Display', serif;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* untuk menjaga aspek ratio */
+    transition: transform 0.3s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1); /* memperbesar foto saat hover */
+}
+
+.card-overlay {
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 120%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+    transform: translate(-50%, -70%); /* geser ke atas saat hover */
+}
+
+.card-overlay h5,
+.card-overlay p {
+    margin-top: 120px;
+    color: white;
+}
+
+.card-overlay a {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.card-overlay a:hover {
+    background-color: #201A0C;
+    color: white;
+    text-decoration: none;
+}
+
+.btnGoDown {
+    margin-left: 50px;
+    margin-top: 104px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    width: 11%;
+    border: none;
+}

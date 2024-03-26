@@ -1,4 +1,4 @@
-body, h1, h2, p, button {
+/* body, h1, h2, p, button {
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body, h1, h2, p, button {
     .container-lg {
         max-width: 100%; 
     }
-}
+} */
 
 .halTiga .resume{
     font-weight: bolder;

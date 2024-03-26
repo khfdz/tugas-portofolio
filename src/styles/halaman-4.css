@@ -4,6 +4,7 @@
 
 .aboutEmpat, .resumeEmpat, .workEmpat {
     cursor: pointer;
+    font-family: 'Playfair Display', serif;
 }
 
 .navbar .logoEmpat {
@@ -120,17 +121,20 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     font-family: 'Playfair Display', serif;
+    align-items: center;
+    justify-content: center;
+    border: none;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 300px;
     object-fit: cover; /* untuk menjaga aspek ratio */
     transition: transform 0.3s;
 }
 
 .card:hover .card-img-top {
-    transform: scale(1.1); /* memperbesar foto saat hover */
+    transform: scale(1.2); /* memperbesar foto saat hover */
 }
 
 .card-overlay {

@@ -1,0 +1,193 @@
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+.container-lg {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .container-lg {
+        max-width: 100%; 
+    }
+}
+
+
+ .halDua{
+    background: #EDE5D8;
+}
+
+.aboutDua,
+.resumeDua,
+.workDua {
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .logoDua {
+    color: #1E180A;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 350px; 
+    width: 120px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .aboutDua {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -180px;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+.navbar .resumeDua {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+
+}
+
+.navbar .workDua {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px;
+}  
+
+.contentHal2 {
+    height: 620px;
+    position: relative; 
+    background-color: #EDE5D8;
+}
+
+
+.foto2 {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 35%;
+}
+
+.isiContentHal2 {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    padding: 10px;
+    font-size: 50px;
+}
+
+.halo {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    margin-left: 530px;
+    margin-top: -460px;
+    line-height: 100px;
+    font-weight: 500;
+    color: #201A0C;
+}
+
+.halo2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 535px;
+    margin-top: 250px;
+    font-weight: 500;
+    text-align: justify;
+    width: 48%;
+}
+
+.halo2 span {
+    font-family: 'Playfair Display', serif;
+    color: #F25B32; 
+    font-weight: bolder;
+}
+
+.btnContact {
+    font-family: 'Playfair Display', serif;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 25px;
+    font-weight: bold;
+    width: 15%;
+    height: 70px;
+    border: none;
+    margin-left: 970px;
+    margin-top: 40px;
+}
+
+.halo3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: -85px;
+    font-weight: 500;
+    color: #201A0C;
+}
+
+.contact-form {
+    font-family: 'Playfair Display', serif;
+    z-index: 8;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: -230.3px;
+    margin-left: 610px;
+    width: 350px;
+    height: 230px;
+    font-size: 20px;
+    background-color: #EEAA15;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #EDE5D8;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #EDE5D8;
+}
+
+.contact-buttons {
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContactMe {
+    width: 130px;
+    border: none;
+    background-color: #AF6536;
+    color: #EDE5D8;
+    font-weight: bold;
+    margin-left: -18px;
+}
+
+.btnCloseForm {
+    border: none;
+    width: 130px;
+    background: #F25B32;
+    color: #EDE5D8;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+/* halaman2 */

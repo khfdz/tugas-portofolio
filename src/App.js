@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Halaman1 from '../src/components/halaman1/Halaman1';
+import Halaman2 from './components/halaman2/Halaman2';
+import Halaman3 from './components/halaman3/Halaman3';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <Halaman1 />
+      <Halaman2 />
+      <Halaman3 />
+      </div>
   );
 }
 

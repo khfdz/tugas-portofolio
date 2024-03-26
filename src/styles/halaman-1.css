@@ -1,0 +1,212 @@
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+.container-lg {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .container-lg {
+        max-width: 100%; 
+    }
+}
+
+.about,
+.resume,
+.work {
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.navbar {
+    background: #314933;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 350px;
+    width: 120px; 
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .about {
+    color: white;
+    font-size: 20px;
+    margin-right: -180px;
+    font-weight: 100;
+    
+}
+
+.navbar .resume {
+    color: white;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px
+    ;
+}
+
+.navbar .work {
+    color: white;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px;
+}   
+
+.navbar .btnGetInTouch {
+    font-family: 'Playfair Display', serif;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    width: 15%;
+
+    
+    border: none;
+    margin-right: 30px;
+}
+
+.content {
+    height: 420px;
+    position: relative;
+    color: #314933;
+    background-color: #314933;
+}
+
+.content p {
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    padding: 10px;
+}
+
+.content p:nth-child(1) {
+    z-index: 1;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: #314933; 
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+.content p:nth-child(2) {
+    z-index: 2; 
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: #314933; 
+    margin-left: 90px;
+    margin-top: 92px;
+}
+
+.content p:nth-child(3) {
+    z-index: 3;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: #314933; 
+    margin-left: 90px;
+    margin-top: 194px;
+
+}
+
+.content p:nth-child(4) {
+    z-index: 3; 
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: transparent; 
+    margin-left: 90px;
+    margin-top: 297px;
+}
+
+.content p:nth-child(5) {
+    z-index: 5; 
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    color: #D2CABA; 
+    margin-left: 90px;
+    margin-top: -35px;
+}
+
+.foto1 {
+    height: 100%;
+    width: 400px;
+    margin-left: 680px;
+    margin-top: 90px;
+    z-index: 4;
+}
+
+.social-links {
+    background-color: #314933;
+    padding: 10px;
+    display: table-cell;
+    z-index: 6;
+    height: 180px;
+    width: 200px;
+    vertical-align: middle;
+    text-align: left; 
+    margin-top: 240px;
+    margin-left: -750px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    text-align: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding-left: 10px; 
+    line-height: 20px; 
+    font-size: 28px;
+}
+
+.social-link:hover {
+    color: #EEAA15; 
+}
+
+.content2 {
+    height: 200px;
+    position: relative; 
+    color: black;
+    background-color: black;
+}
+
+.btnGoDown {
+    margin-left: 50px;
+    margin-top: 104px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    width: 11%;
+    border: none;
+}
+
+.teks1 {
+    z-index: 7;
+    color: white;
+    text-align: justify;
+    margin-left: 450px;
+    margin-top: -60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* halaman1 */

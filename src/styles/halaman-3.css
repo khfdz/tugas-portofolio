@@ -1,0 +1,152 @@
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+.container-lg {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .container-lg {
+        max-width: 100%; 
+    }
+}
+
+.halTiga .resume{
+    font-weight: bolder;
+}
+
+.contentHal3 {
+    height: 620px;
+    position: relative; 
+    background-color: #314933;
+}
+
+.educationContainer {
+    margin-left: -12px;
+    margin-bottom: 50px;
+    background: #EDE5D8;
+    width: 500px;
+    height: 260px;
+}
+
+.textEducation {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 130px;
+    color: #201A0C;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.tahunSekolah, .namaSekolah {
+    width: 400px;
+    margin-left: -40px;
+}
+
+.tahunSekolah p {
+    margin-top: 2.5px;
+    font-weight: bolder;
+    margin-left: -60px;
+    line-height: 52px;
+    align-items: right;
+    justify-content: right;
+    text-align: center;
+}
+.namaSekolah p {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: -60px;
+    line-height: 20px;
+}
+
+.namaSekolah a {
+    font-weight: 400;
+}
+
+
+.experienceContainer {
+    margin-top: -300px;
+    margin-left: 599px;
+    margin-bottom: 50px;
+    background: #EDE5D8;
+    width: 530px;
+    height: 360px;
+}
+
+.judulSkills {
+    display: flex;
+    z-index: 1;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 130px;
+    color: #201A0C;
+}
+
+.btnDownload {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 24px;
+    font-weight: bold;
+    width: 17%;
+    height: 50px;
+    border: none;
+    margin-left: -12px;
+    margin-top: -120px;
+    border-radius: 0 20px 20px 0;
+    text-decoration: none;
+}
+
+.btnDownload:hover {
+    color: black;
+}
+
+.skills{
+    font-size: 35px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    background-color: #F25B32;
+    height: 50px;
+    width: 250px;
+    margin-left: 220px;
+    margin-top: -240px;
+    z-index: 1;
+}
+
+.icons {
+    z-index: 2;
+    height: 200px;
+    background: #EDE5D8;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr); 
+    justify-items: center;
+}
+
+.icons img {
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease; 
+}
+
+.icons img:hover {
+    transform: scale(2.1); 
+}

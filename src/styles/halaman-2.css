@@ -30,7 +30,7 @@
     color: #1E180A;
     font-size: 24px;
     padding: 10px;
-    margin-right: 350px; 
+    margin-right: 250px; 
     width: 120px;
     font-weight: bold;
     margin-left: 30px;
@@ -94,7 +94,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     position: absolute;
-    margin-left: 535px;
+    margin-left: 490px;
     margin-top: 250px;
     font-weight: 500;
     text-align: justify;
@@ -111,20 +111,20 @@
     font-family: 'Playfair Display', serif;
     background-color: #EEAA15;
     color: #201A0C;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
     width: 15%;
     height: 70px;
     border: none;
-    margin-left: 970px;
-    margin-top: 40px;
+    margin-left: 900px;
+    margin-top: 80px;
 }
 
 .halo3 {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
-    margin-left: 180px;
-    margin-top: -85px;
+    margin-left: 150px;
+    margin-top: -80px;
     font-weight: 500;
     color: #201A0C;
 }
@@ -134,8 +134,8 @@
     z-index: 8;
     background-color: #f9f9f9;
     padding: 10px;
-    margin-top: -230.3px;
-    margin-left: 610px;
+    margin-top: -234px;
+    margin-left: 550px;
     width: 350px;
     height: 230px;
     font-size: 20px;

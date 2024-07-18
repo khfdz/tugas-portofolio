@@ -15,7 +15,7 @@ const Profile = () => {
     return (
         <div className="container-lg contentHal2">
             <div className="row isiContentHal2">
-                <img className="foto2" src="./images/foto3.png" alt="Foto Profil 2" />
+                <img className="foto2" src="./images/foto5.png" alt="Foto Profil 2" />
 
                 <p className="halo">Hello, <br /> I'm Dhika </p>
                 <p className="halo2">"I'm a <span>fullstack website developer</span> and a <span> photographer</span>, residing in Indonesia. I hold a bachelor's degree in Computer Science, and I'm passionate about creating stunning digital experiences and captivating visual stories."</p>

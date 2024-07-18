@@ -46,6 +46,13 @@ const Konten1 = () => {
       imgSrc: './images/web2.jpg',
       title: 'Gadget Store',
       link: 'https://tugas14-fe-gadget-store2.vercel.app/'
+    },
+    {
+      id: 7,
+      type: 'webDev',
+      imgSrc: './images/web3.jpg',
+      title: 'Rameno Omeno',  
+      link: 'https://github.com/khfdz/eduwork-server-store'
     }
   ];
 

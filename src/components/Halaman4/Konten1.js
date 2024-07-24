@@ -53,6 +53,13 @@ const Konten1 = () => {
       imgSrc: './images/web3.jpg',
       title: 'Rameno Omeno',  
       link: 'https://github.com/khfdz/eduwork-server-store'
+    },
+    {
+      id: 8,
+      type: 'webDev',
+      imgSrc: './images/web4.jpg',
+      title: 'GatewayHaven',
+      link: 'https://getaway-haven.vercel.app/'
     }
   ];
 

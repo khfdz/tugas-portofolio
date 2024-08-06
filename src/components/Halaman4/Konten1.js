@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Konten1 = () => {
-  const [activeType, setActiveType] = useState('photography'); // State untuk jenis proyek yang aktif
+  const [activeType, setActiveType] = useState('webDev'); // State untuk jenis proyek yang aktif
   const [currentPage, setCurrentPage] = useState(1); // State untuk halaman saat ini
 
   const projects = [
